@@ -1,0 +1,38 @@
+*{ transition: 1s;font-family: "Palanquin", sans-serif;margin: 0;padding: 0;}
+body{background-image: radial-gradient(#188daa,#091D52);height: 100vh;}
+header{background-color: rgba(0, 0, 0, 0.247);height: 171px;width: 100%;justify-content: center;align-items: center;display: flex;}
+.sharp{background-image: radial-gradient(white,rgb(58, 58, 58));height: 250px;width: 250px;border-radius: 0 2000px 0 2000px;transform: rotate(-45deg);border: solid rgb(49, 49, 49) 4px;justify-content: center;align-items: center;display: flex;}
+
+.iris{ background-image: radial-gradient(rgb(61, 61, 245),rgb(0, 0, 58));
+  height: 100px;width: 100px;border-radius: 50px;position:absolute;}
+
+.down{position: absolute;top: 100px;}
+
+.login{overflow: hidden;margin: auto;background-image: linear-gradient(to top right,#102037 60%,#12F1D6);height: 420px;width: 1000px;margin-top: 25px;border-radius: 0 100px 0 100px;position: relative;}
+#log{margin: 0px 0 0 30px;font-size: 45px;color: white; text-shadow: -1px 0 #0EEADD, 0 1px #0EEADD, 1px 0 #0EEADD, 0 -1px #0EEADD;}
+#divcat{color: #440A45;font-size: 50PX;margin: 0;position: fixed;right: 300PX;top: 200PX;}
+#mos{height: 1000px;width: 20px;background-image: linear-gradient(to top right,#0c1727,#4a5b77);transform:rotate(-65deg) ;margin: 0;position: absolute;top: -300px;right: 300px;overflow: hidden;}
+input{margin: 40px 0 0 10px;padding: 15px;border-radius: 20px;border: black solid 2.5px;}
+#N{background-image: linear-gradient(to right,white,grey);width: 400px;}
+#M{background-image: linear-gradient(to right,white,grey);width: 400px;}
+#submit{margin:  100px 0 0 100px;width: 150px;background-image: linear-gradient(to right,rgb(87, 87, 33),yellow);border: none;font-size: medium;color: white;font-weight: 600;cursor: pointer;}
+
+.test{
+    height: 20px;width: 80px;
+    background-color: aqua;
+    animation-name: x;
+    animation-duration: 0.75s;
+    }
+
+@keyframes y{
+    0%{bottom: 0;}
+    50%{bottom: 50px;}
+    100%{bottom: 100px;}
+}
+@keyframes x{
+  0%{transform: rotate(0deg);}
+  25%{ transform: rotate(-35deg);}
+  50%{transform: rotate(15deg);scale : 1.2}
+  75%{transform: rotate(35deg)}
+  100%{transform: rotate(0deg)}
+  }
